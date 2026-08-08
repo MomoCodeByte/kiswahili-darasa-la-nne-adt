@@ -67,11 +67,21 @@ async def run(args: argparse.Namespace) -> None:
     texts: dict[str, str] = json.loads((locale / "texts.json").read_text(encoding="utf-8"))
     audios: dict[str, str] = json.loads((locale / "audios.json").read_text(encoding="utf-8"))
     cache = Path(args.cache)
+    selected_ids: set[str] | None = None
+    if args.ids_file:
+        selected_ids = {
+            line.strip()
+            for line in Path(args.ids_file).read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        }
+        selected_ids |= {f"{data_id}_easy_read" for data_id in tuple(selected_ids)}
 
     jobs: dict[str, tuple[str, Path]] = {}
     destinations: dict[str, list[Path]] = {}
     for data_id, filename in audios.items():
         if args.prefix and not data_id.startswith(args.prefix):
+            continue
+        if selected_ids is not None and data_id not in selected_ids:
             continue
         normalized = spoken_text(texts[data_id])
         digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()
@@ -113,6 +123,7 @@ def main() -> None:
     parser.add_argument("--workers", type=int, default=12)
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--prefix", default="")
+    parser.add_argument("--ids-file", default="")
     asyncio.run(run(parser.parse_args()))
 
 

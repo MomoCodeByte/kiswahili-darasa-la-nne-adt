@@ -5572,7 +5572,7 @@
   "pg005_n0032_easy_read": "KWA AJILI YA KUSOMA MTANDAONI TU",
   "pg006_n0004_easy_read": "Kitabu cha Kiswahili cha Darasa la Nne kimetayarishwa kwa kufuata Muhtasari wa Somo la Kiswahili wa Elimu ya Msingi, kuanzia Darasa la Tatu hadi la Sita, wa mwaka 2023. Muhtasari huu ulitolewa na Wizara ya Elimu, Sayansi na Teknolojia.",
   "pg006_n0005_easy_read": "Pia, kitabu hiki ni Toleo la Pili. Kimeboreshwa kutoka kitabu cha Kiswahili kilichochapishwa mwaka 2018 kwa kufuata Muhtasari wa mwaka 2016.",
-  "pg006_n0007_easy_read": "Lengo la kitabu hiki ni kukuza uwezo wako wa:\n- kuzungumza Kiswahili\n- kusikiliza Kiswahili\n- kutumia lugha ya alama katika mawasiliano\n- kusoma Kiswahili\n- kuandika Kiswahili",
+  "pg006_n0007_easy_read": "Lengo la kitabu hiki ni kukuza uwezo wako wa kuzungumza, kusikiliza, kutumia lugha ya alama katika mawasiliano, kusoma na kuandika lugha ya Kiswahili.",
   "pg006_n0008_easy_read": "Pia, kitabu hiki kitakuwezesha kutumia msamiati wa Kiswahili kwa namna mbalimbali.",
   "pg006_n0009_easy_read": "Vilevile, kitabu hiki kitakujengea uwezo wa kupanga mawazo yako kwa mpangilio na mtiririko unaotakiwa.",
   "pg006_n0011_easy_read": "Kitabu hiki kina vitu vifuatavyo:\n- hadithi\n- habari\n- mashairi\n- ngonjera\n- igizo\n- majigambo",
@@ -9389,5 +9389,7 @@
   "pg136_n0017_easy_read": "Sasa tumeshakomaa.\nTunataka mtihani.",
   "pg136_n0018_easy_read": "Tumewasha mishumaa.\nHii ni ishara kwamba hatujachoka.",
   "pg136_n0019_easy_read": "Sasa tumechachamaa.\nTunataka darasa la 5.",
-  "pg136_n0020_easy_read": "Hiki ni darasa letu la 4.\nTunalipa kwaheri."
+  "pg136_n0020_easy_read": "Hiki ni darasa letu la 4.\nTunalipa kwaheri.",
+  "pg082_n0004_easy_read": "Kusimulia / kutumia lugha ya alama kuelezea hadithi",
+  "pg073_n0003_easy_read": "Kusikiliza / kutazama video ya hadithi"
 }
