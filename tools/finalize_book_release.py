@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_VERSION = "27"
+RELEASE_VERSION = "28"
 
 
 def inclusive_texts() -> dict[str, str]:
