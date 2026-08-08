@@ -8,7 +8,12 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_VERSION = "35"
+RELEASE_VERSION = "36"
+
+DUPLICATE_BLOCK_PATTERNS = (
+    r'<aside\b[^>]*aria-labelledby="(?:pg078|pg080|pg086|pg087|pg088)-cont"[^>]*>.*?</aside>',
+    r'[ \t]*<div class="container[^\"]*"[^>]*>\s*<div role="group" aria-label="Mwendelezo wa vitendawili".*?</div></div>',
+)
 
 
 def inclusive_texts() -> dict[str, str]:
@@ -64,9 +69,11 @@ def main() -> None:
         )
         updated = re.sub(
             r"inclusive-language\.js\?v=\d+",
-            "inclusive-language.js?v=21",
+            "inclusive-language.js?v=22",
             updated,
         )
+        for pattern in DUPLICATE_BLOCK_PATTERNS:
+            updated = re.sub(pattern, "", updated, flags=re.DOTALL)
         if "assets/book-consistency.css" not in updated:
             updated = updated.replace(
                 '<link href="./assets/fonts.css" rel="stylesheet">',
@@ -86,6 +93,7 @@ def main() -> None:
             updated,
             flags=re.MULTILINE,
         )
+        updated = "\n".join(line.rstrip() for line in updated.splitlines()) + "\n"
         page_path.write_text(updated, encoding="utf-8")
         numbered += 1
 

@@ -86,6 +86,12 @@
     if (pageId === 'pg078_sec001') {
       document.querySelector('[aria-labelledby="pg078-cont"]')?.remove();
     }
+    if (pageId === 'pg080_sec001') {
+      document.querySelector('[aria-labelledby="pg080-cont"]')?.remove();
+    }
+    if (pageId === 'pg117_sec001') {
+      document.querySelector('[aria-label="Mwendelezo wa vitendawili"]')?.parentElement?.remove();
+    }
   };
 
   const apply = () => {
