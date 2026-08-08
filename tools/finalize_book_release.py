@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_VERSION = "34"
+RELEASE_VERSION = "35"
 
 
 def inclusive_texts() -> dict[str, str]:
@@ -64,7 +64,7 @@ def main() -> None:
         )
         updated = re.sub(
             r"inclusive-language\.js\?v=\d+",
-            "inclusive-language.js?v=20",
+            "inclusive-language.js?v=21",
             updated,
         )
         if "assets/book-consistency.css" not in updated:

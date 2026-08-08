@@ -83,6 +83,9 @@
     if (pageId === 'pg088_sec001') {
       document.querySelector('[aria-labelledby="pg088-cont"]')?.remove();
     }
+    if (pageId === 'pg078_sec001') {
+      document.querySelector('[aria-labelledby="pg078-cont"]')?.remove();
+    }
   };
 
   const apply = () => {
