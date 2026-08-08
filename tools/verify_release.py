@@ -39,8 +39,8 @@ def main() -> None:
         assert match and int(match.group(1)) == position, (
             f"Bad navigation number in {page['href']}: expected {position}"
         )
-        assert "offline-preloader.js?v=31" in html, f"Old cache version in {page['href']}"
-        assert "book-consistency.css?v=31" in html, f"Typography CSS missing in {page['href']}"
+        assert "offline-preloader.js?v=32" in html, f"Old cache version in {page['href']}"
+        assert "book-consistency.css?v=32" in html, f"Typography CSS missing in {page['href']}"
         assert "inclusive-language.js?v=18" in html, f"Old inclusive-language cache version in {page['href']}"
         assert "assets/original-view.js" not in html, f"PDF button script remains in {page['href']}"
 
