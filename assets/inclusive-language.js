@@ -13,7 +13,7 @@
     pg091_n0007: 'Vilevile, utaandika na kusimulia / kutumia lugha ya alama kuelezea hadithi.',
     pg099_n0011: 'Andika hadithi yenye maneno sabini (70), kisha msimulie mwenzako / tumia lugha ya alama kumwelezea mwenzako.',
     pg100_n0008: 'Aidha, utasimulia / kutumia lugha ya alama kuelezea hadithi kwa kuanza na mianzo na kumalizia na miisho uliyojifunza.',
-    pg115_n0036: 'Imba wimbo huu kwa sauti / wasilisha wimbo huu kwa lugha ya alama, kisha andika haki za mtoto zilizotajwa.',
+    pg115_n0036: 'Imba wimbo huu kwa sauti / tumia lugha ya alama kusoma wimbo huu, kisha andika haki za mtoto zilizotajwa.',
     pg118_n0009: 'Umahiri utakaoujenga utakuwezesha kuwasiliana kwa kutumia semi mbalimbali katika mazungumzo, lugha ya alama na maandishi katika miktadha mbalimbali.',
     pg128_n0007: 'Umahiri utakaoujenga utakuwezesha kuwasilisha hoja kwa njia ya mazungumzo / lugha ya alama katika miktadha mbalimbali.',
     pg007_n0008: 'Umahiri utakaoujenga utakuwezesha kulinganisha vitu kwa kuzingatia sifa za vitu hivyo katika mazungumzo, kwa lugha ya alama na maandishi ya kila siku.',
