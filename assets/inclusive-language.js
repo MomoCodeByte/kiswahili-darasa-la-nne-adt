@@ -48,6 +48,13 @@
     for (const [id, [label, page, spokenLabel]] of Object.entries(tocEntries)) {
       const target = document.querySelector(`[data-id="${id}"]`);
       if (!target) continue;
+      if (id === 'pg004_n0009') {
+        target.dataset.tocLayout = 'two-line';
+        target.setAttribute('aria-label', `${spokenLabel}, ukurasa wa ${page}`);
+        target.className = 'w-full min-w-0 text-[26px] leading-snug max-lg:text-[20px] max-sm:text-[17px]';
+        target.innerHTML = '<span class="block">Kusimulia hadithi/kutumia Lugha ya alama</span><span class="flex w-full min-w-0 items-end"><span class="shrink-0">kuelezea hadithi</span><span aria-hidden="true" class="mx-3 mb-[7px] min-w-[2rem] flex-1 border-b-[3px] border-dotted border-zinc-700"></span><span class="shrink-0">76</span></span>';
+        continue;
+      }
       const parts = target.querySelectorAll(':scope > span');
       if (target.dataset.tocLayout === 'responsive' && parts.length === 3 && parts[0].textContent === label && parts[2].textContent === page) continue;
       target.dataset.tocLayout = 'responsive';
