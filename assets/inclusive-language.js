@@ -16,7 +16,7 @@
     pg115_n0036: 'Imba wimbo huu kwa sauti / wasilisha wimbo huu kwa lugha ya alama, kisha andika haki za mtoto zilizotajwa.',
     pg118_n0009: 'Umahiri utakaoujenga utakuwezesha kuwasiliana kwa kutumia semi mbalimbali katika mazungumzo, lugha ya alama na maandishi katika miktadha mbalimbali.',
     pg128_n0007: 'Umahiri utakaoujenga utakuwezesha kuwasilisha hoja kwa njia ya mazungumzo / lugha ya alama katika miktadha mbalimbali.',
-    pg007_n0008: 'Umahiri utakaoujenga utakuwezesha kulinganisha vitu kwa kuzingatia sifa za vitu hivyo katika mazungumzo, lugha ya alama na maandishi ya kila siku.',
+    pg007_n0008: 'Umahiri utakaoujenga utakuwezesha kulinganisha vitu kwa kuzingatia sifa za vitu hivyo katika mazungumzo, kwa lugha ya alama na maandishi ya kila siku.',
     pg027_n0029: 'Igiza na wenzako / tumia lugha ya alama kuwasilisha mazungumzo kati ya Mwalimu Sara na Mwalimu Mbilo.',
     pg028_n0010: 'Umahiri utakaoujenga utakuwezesha kutumia hali timilifu na ya mazoea katika mazungumzo, lugha ya alama na maandishi ya kila siku.',
     pg038_n0010: 'Umahiri utakaoujenga utakuwezesha kujieleza kwa kujiamini na kuanzisha na kuendeleza mazungumzo kwa sauti, lugha ya alama au maandishi katika mazingira mbalimbali.',
