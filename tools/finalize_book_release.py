@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_VERSION = "36"
+RELEASE_VERSION = "37"
 
 DUPLICATE_BLOCK_PATTERNS = (
     r'<aside\b[^>]*aria-labelledby="(?:pg078|pg080|pg086|pg087|pg088)-cont"[^>]*>.*?</aside>',
@@ -27,6 +27,17 @@ def inclusive_texts() -> dict[str, str]:
         match.group(1): match.group(2).replace("\\'", "'")
         for match in matches
     }
+
+
+def cache_busted_navigation(entries: list[dict]) -> list[dict]:
+    result = []
+    for entry in entries:
+        updated = dict(entry)
+        href = updated.get("href")
+        if href:
+            updated["href"] = f"{href}?release=v{RELEASE_VERSION}"
+        result.append(updated)
+    return result
 
 
 def main() -> None:
@@ -69,7 +80,7 @@ def main() -> None:
         )
         updated = re.sub(
             r"inclusive-language\.js\?v=\d+",
-            "inclusive-language.js?v=22",
+            "inclusive-language.js?v=23",
             updated,
         )
         for pattern in DUPLICATE_BLOCK_PATTERNS:
@@ -133,8 +144,8 @@ def main() -> None:
     inline["./assets/book-consistency.css"] = (
         ROOT / "assets" / "book-consistency.css"
     ).read_text(encoding="utf-8")
-    inline["./content/pages.json"] = pages
-    inline["./content/toc.json"] = toc
+    inline["./content/pages.json"] = cache_busted_navigation(pages)
+    inline["./content/toc.json"] = cache_busted_navigation(toc)
     inline["./content/i18n/sw-TZ/texts.json"] = texts
     inline["./content/i18n/sw-TZ/audios.json"] = audios
     for page in pages:

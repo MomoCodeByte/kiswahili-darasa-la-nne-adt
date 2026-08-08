@@ -39,9 +39,9 @@ def main() -> None:
         assert match and int(match.group(1)) == position, (
             f"Bad navigation number in {page['href']}: expected {position}"
         )
-        assert "offline-preloader.js?v=36" in html, f"Old cache version in {page['href']}"
-        assert "book-consistency.css?v=36" in html, f"Typography CSS missing in {page['href']}"
-        assert "inclusive-language.js?v=22" in html, f"Old inclusive-language cache version in {page['href']}"
+        assert "offline-preloader.js?v=37" in html, f"Old cache version in {page['href']}"
+        assert "book-consistency.css?v=37" in html, f"Typography CSS missing in {page['href']}"
+        assert "inclusive-language.js?v=23" in html, f"Old inclusive-language cache version in {page['href']}"
         assert "assets/original-view.js" not in html, f"PDF button script remains in {page['href']}"
 
     chapter_eight = [entry for entry in toc if entry.get("title") == "Sura ya Nane"]
@@ -78,8 +78,14 @@ def main() -> None:
     marker = "var INLINE = "
     start = preloader.index(marker) + len(marker)
     inline, _ = json.JSONDecoder().raw_decode(preloader[start:])
-    assert inline["./content/pages.json"] == pages, "Offline pages.json is stale"
-    assert inline["./content/toc.json"] == toc, "Offline toc.json is stale"
+    versioned_pages = [
+        {**entry, "href": f"{entry['href']}?release=v37"} for entry in pages
+    ]
+    versioned_toc = [
+        {**entry, "href": f"{entry['href']}?release=v37"} for entry in toc
+    ]
+    assert inline["./content/pages.json"] == versioned_pages, "Offline pages.json is stale"
+    assert inline["./content/toc.json"] == versioned_toc, "Offline toc.json is stale"
     assert inline["./content/i18n/sw-TZ/texts.json"] == texts, "Offline texts are stale"
     assert inline["./content/i18n/sw-TZ/audios.json"] == audios, "Offline audio map is stale"
     assert inline["./assets/config.json"] == config, "Offline config is stale"
