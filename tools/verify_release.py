@@ -21,6 +21,7 @@ def load_json(path: Path):
 
 def main() -> None:
     pages = load_json(ROOT / "content" / "pages.json")
+    toc = load_json(ROOT / "content" / "toc.json")
     texts = load_json(ROOT / "content" / "i18n" / "sw-TZ" / "texts.json")
     audios = load_json(ROOT / "content" / "i18n" / "sw-TZ" / "audios.json")
     config = load_json(ROOT / "assets" / "config.json")
@@ -38,7 +39,14 @@ def main() -> None:
         assert match and int(match.group(1)) == position, (
             f"Bad navigation number in {page['href']}: expected {position}"
         )
-        assert "offline-preloader.js?v=25" in html, f"Old cache version in {page['href']}"
+        assert "offline-preloader.js?v=26" in html, f"Old cache version in {page['href']}"
+        assert "assets/original-view.js" not in html, f"PDF button script remains in {page['href']}"
+
+    chapter_eight = [entry for entry in toc if entry.get("title") == "Sura ya Nane"]
+    assert len(chapter_eight) == 1, "Sura ya Nane is missing or duplicated in the menu"
+    assert all(entry.get("section_id") != "pg004_sec001" for entry in toc), (
+        "The duplicated pg004 Sura ya Nane menu entry remains"
+    )
 
     inclusive_source = (ROOT / "assets" / "inclusive-language.js").read_text(
         encoding="utf-8"
@@ -69,6 +77,7 @@ def main() -> None:
     start = preloader.index(marker) + len(marker)
     inline, _ = json.JSONDecoder().raw_decode(preloader[start:])
     assert inline["./content/pages.json"] == pages, "Offline pages.json is stale"
+    assert inline["./content/toc.json"] == toc, "Offline toc.json is stale"
     assert inline["./content/i18n/sw-TZ/texts.json"] == texts, "Offline texts are stale"
     assert inline["./content/i18n/sw-TZ/audios.json"] == audios, "Offline audio map is stale"
     assert inline["./assets/config.json"] == config, "Offline config is stale"
@@ -80,6 +89,7 @@ def main() -> None:
     print(f"PASS: {len(pages)} navigation entries numbered 1-{len(pages)}.")
     print(f"PASS: {len(replacements)} inclusive IDs and 2 audio variants each.")
     print("PASS: removed pages are absent from navigation.")
+    print("PASS: PDF button is removed and Sura ya Nane appears once in the menu.")
     print("PASS: offline bundle matches the release files.")
 
 

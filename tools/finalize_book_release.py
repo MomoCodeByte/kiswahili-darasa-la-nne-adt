@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_VERSION = "25"
+RELEASE_VERSION = "26"
 
 
 def inclusive_texts() -> dict[str, str]:
@@ -26,12 +26,15 @@ def inclusive_texts() -> dict[str, str]:
 
 def main() -> None:
     pages_path = ROOT / "content" / "pages.json"
+    toc_path = ROOT / "content" / "toc.json"
     texts_path = ROOT / "content" / "i18n" / "sw-TZ" / "texts.json"
     audios_path = ROOT / "content" / "i18n" / "sw-TZ" / "audios.json"
     config_path = ROOT / "assets" / "config.json"
     preloader_path = ROOT / "assets" / "offline-preloader.js"
 
     pages = json.loads(pages_path.read_text(encoding="utf-8"))
+    toc = json.loads(toc_path.read_text(encoding="utf-8"))
+    toc = [entry for entry in toc if entry.get("section_id") != "pg004_sec001"]
     texts = json.loads(texts_path.read_text(encoding="utf-8"))
     audios = json.loads(audios_path.read_text(encoding="utf-8"))
     config = json.loads(config_path.read_text(encoding="utf-8"))
@@ -59,6 +62,12 @@ def main() -> None:
             f"offline-preloader.js?v={RELEASE_VERSION}",
             updated,
         )
+        updated = re.sub(
+            r'^\s*<script src="\./assets/original-view\.js"></script>\s*\n?',
+            "",
+            updated,
+            flags=re.MULTILINE,
+        )
         page_path.write_text(updated, encoding="utf-8")
         numbered += 1
 
@@ -72,6 +81,10 @@ def main() -> None:
         audios.setdefault(easy_id, f"{easy_id}.mp3")
 
     config["bundleVersion"] = RELEASE_VERSION
+    toc_path.write_text(
+        json.dumps(toc, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     texts_path.write_text(
         json.dumps(texts, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -92,6 +105,7 @@ def main() -> None:
     inline, consumed = decoder.raw_decode(preloader[start:])
     inline["./assets/config.json"] = config
     inline["./content/pages.json"] = pages
+    inline["./content/toc.json"] = toc
     inline["./content/i18n/sw-TZ/texts.json"] = texts
     inline["./content/i18n/sw-TZ/audios.json"] = audios
     for page in pages:
