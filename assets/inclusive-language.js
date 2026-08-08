@@ -75,7 +75,15 @@
 
   const options = {};
 
+  const removeDuplicateBlocks = () => {
+    const pageId = document.querySelector('meta[name="title-id"]')?.content;
+    if (pageId !== 'pg087_sec001') return;
+
+    document.querySelector('[aria-labelledby="pg087-cont"]')?.remove();
+  };
+
   const apply = () => {
+    removeDuplicateBlocks();
     arrangeTocEntries();
 
     for (const [id, text] of Object.entries(corrections)) {
