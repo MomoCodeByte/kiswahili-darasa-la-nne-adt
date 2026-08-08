@@ -36,7 +36,7 @@
 
   const tocEntries = {
     pg004_n0005: ['Kusikiliza/kutazama video ya hadithi', '67', 'Kusikiliza au kutazama video ya hadithi'],
-    pg004_n0009: ['Kusimulia hadithi', '76', 'Kusimulia hadithi'],
+    pg004_n0009: ['Kusimulia hadithi/kutumia Lugha ya alama kuelezea hadithi', '76', 'Kusimulia hadithi au kutumia Lugha ya alama kuelezea hadithi'],
     pg004_n0013: ['Kuandika hadithi', '85', 'Kuandika hadithi'],
     pg004_n0017: ['Mianzo na miisho ya hadithi', '94', 'Mianzo na miisho ya hadithi'],
     pg004_n0021: ['Kusoma kwa ufasaha na ufahamu', '104', 'Kusoma kwa ufasaha na ufahamu'],
