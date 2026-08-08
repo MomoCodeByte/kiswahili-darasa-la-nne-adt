@@ -4,7 +4,7 @@
     pg027_n0026: 'Simulia kwa maneno yako mwenyewe / tumia lugha ya alama kuelezea tukio ulilosoma kwa kuzingatia nyakati sahihi.',
     pg046_n0028: 'Simulia / tumia lugha ya alama kuelezea mbele ya darasa tukio lolote la kufurahisha au kusikitisha ulilowahi kushuhudia; kisha ruhusu maswali kutoka kwa wanafunzi wenzako na uyajibu.',
     pg061_n0015: 'Simulia kwa maneno yako mwenyewe / tumia lugha ya alama kuelezea hadithi uliyoisoma.',
-    pg079_n0016: 'Msomee mwenzako hadithi / tumia lugha ya alama kumwelezea hadithi, kisha jibu maswali yanayofuata.',
+    pg079_n0016: 'Msomee mwenzako hadithi / tumia lugha ya alama kumwelezea mwenzako hadithi, kisha jibu maswali yanayofuata.',
     pg080_n0032: 'Sikiliza milio / igiza milio na kuionesha kwa kutumia lugha ya alama kwa wanyama na vitu vifuatavyo.',
     pg081_n0005: 'Kwa kuongozwa na mwalimu, sikiliza / tazama video ya hadithi yoyote kutoka katika vyanzo mbalimbali vya TEHAMA.',
     pg081_n0010: 'Kisha msimulie / tumia lugha ya alama kumwelezea mwenzako hadithi hiyo, na pendekeza jina la hadithi hiyo.',
