@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RELEASE_VERSION = "29"
+RELEASE_VERSION = "30"
 
 
 def inclusive_texts() -> dict[str, str]:
@@ -62,6 +62,19 @@ def main() -> None:
             f"offline-preloader.js?v={RELEASE_VERSION}",
             updated,
         )
+        if "assets/book-consistency.css" not in updated:
+            updated = updated.replace(
+                '<link href="./assets/fonts.css" rel="stylesheet">',
+                '<link href="./assets/fonts.css" rel="stylesheet">\n'
+                f'    <link href="./assets/book-consistency.css?v={RELEASE_VERSION}" rel="stylesheet">',
+                1,
+            )
+        else:
+            updated = re.sub(
+                r"book-consistency\.css\?v=\d+",
+                f"book-consistency.css?v={RELEASE_VERSION}",
+                updated,
+            )
         updated = re.sub(
             r'^\s*<script src="\./assets/original-view\.js"></script>\s*\n?',
             "",
@@ -104,6 +117,9 @@ def main() -> None:
     decoder = json.JSONDecoder()
     inline, consumed = decoder.raw_decode(preloader[start:])
     inline["./assets/config.json"] = config
+    inline["./assets/book-consistency.css"] = (
+        ROOT / "assets" / "book-consistency.css"
+    ).read_text(encoding="utf-8")
     inline["./content/pages.json"] = pages
     inline["./content/toc.json"] = toc
     inline["./content/i18n/sw-TZ/texts.json"] = texts
