@@ -49,6 +49,15 @@
       const target = document.querySelector(`[data-id="${id}"]`);
       if (!target) continue;
       if (id === 'pg004_n0009') {
+        const lines = target.querySelectorAll(':scope > span');
+        const firstLine = lines[0]?.textContent?.trim();
+        const secondLine = lines[1]?.textContent?.replace(/\s+/g, '').trim();
+        if (
+          target.dataset.tocLayout === 'two-line' &&
+          lines.length === 2 &&
+          firstLine === 'Kusimulia hadithi/kutumia Lugha ya alama' &&
+          secondLine === 'kuelezeahadithi76'
+        ) continue;
         target.dataset.tocLayout = 'two-line';
         target.setAttribute('aria-label', `${spokenLabel}, ukurasa wa ${page}`);
         target.className = 'w-full min-w-0 text-[26px] leading-snug max-lg:text-[20px] max-sm:text-[17px]';
