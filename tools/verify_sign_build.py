@@ -48,7 +48,7 @@ def main() -> None:
         assert videos[f"video-{index}"] == f"page_{index}.mp4"
         html = (ROOT / page["href"]).read_text(encoding="utf-8")
         assert f'content="{index}"' in html
-        assert "sign-language-tts-compat.js?v=1" in html
+        assert "sign-language-tts-compat.js?v=2" in html
 
     assert not audio_tracks, f"Videos containing audio: {audio_tracks}"
     assert not bad_video, f"Non-H.264 videos: {bad_video}"

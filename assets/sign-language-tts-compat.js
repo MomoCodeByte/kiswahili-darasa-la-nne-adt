@@ -18,6 +18,20 @@
     video.setAttribute("muted", "");
   };
 
+  const suppressFooterTts = (root) => {
+    root.querySelectorAll?.("[data-id]").forEach((element) => {
+      const text = (element.textContent || "").replace(/\s+/g, " ").trim();
+      const skip =
+        /^FOR\s+ONLINE\s+READING\s+ONLY$/i.test(text) ||
+        /KISWAHILI\s+LENYE\s+MABORESHO\s+YOTE\.indd/i.test(text) ||
+        /^\d{1,2}\/\d{1,2}\/20\d{2}\s+\d{1,2}:\d{2}$/.test(text);
+      if (!skip) return;
+      element.removeAttribute("data-id");
+      element.setAttribute("data-tts-skip", "footer");
+      element.setAttribute("aria-hidden", "true");
+    });
+  };
+
   HTMLMediaElement.prototype.pause = function () {
     if (isSignVideo(this)) return;
     return nativePause.call(this);
@@ -53,5 +67,8 @@
         node.querySelectorAll?.("video").forEach(prepareSignVideo);
       }
     }
+    suppressFooterTts(document);
   }).observe(document.documentElement, { childList: true, subtree: true });
+
+  suppressFooterTts(document);
 })();

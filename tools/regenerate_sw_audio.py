@@ -25,7 +25,29 @@ RATE = "-5%"
 
 def spoken_text(value: str) -> str:
     value = html.unescape(value)
-    value = value.replace("/", " au ")
+    replacements = (
+        (r"\bhttps?\b", "echititipi"),
+        (r"\bwww\b", "dabiliyu dabiliyu dabiliyu"),
+        (r"\bs\s*\.\s*l\s*\.\s*p\s*\.?", "esielopi"),
+        (r"\bUDOM\b", "yudomu"),
+        (r"\bUDSM\b", "yudizimu"),
+        (r"\bDUCE\b", "duse"),
+        (r"\bTET\b", "TETI"),
+        (r"\bMt\s*\.?", "mtakatifu"),
+        (r"\bBi\s*\.?", "Bibi"),
+        (r"\bBw\s*\.?", "Bwana"),
+        (r"\bDr\s*\.?", "docta"),
+        (r"\bProf\s*\.?", "profesa"),
+        (r"\bVI\b", "sita"),
+        (r"\bV\b", "tano"),
+        (r"\bgo\b", "goo"),
+        (r"\btz\b", "tizi"),
+    )
+    for pattern, replacement in replacements:
+        value = re.sub(pattern, replacement, value, flags=re.IGNORECASE)
+    value = value.replace("+", " julisha ")
+    value = value.replace("/", " slashi ")
+    value = re.sub(r"(?<!\w)\s*[-–—]\s*(?!\w)", " dashi ", value)
     value = re.sub(r"[._…]{3,}", ", ", value)
     value = re.sub(r"^[\s•*-]+", "", value, flags=re.MULTILINE)
     value = re.sub(r"\s*\n\s*", ". ", value)
@@ -74,7 +96,11 @@ async def run(args: argparse.Namespace) -> None:
             for line in Path(args.ids_file).read_text(encoding="utf-8").splitlines()
             if line.strip()
         }
-        selected_ids |= {f"{data_id}_easy_read" for data_id in tuple(selected_ids)}
+        selected_ids |= {
+            f"{data_id}_easy_read"
+            for data_id in tuple(selected_ids)
+            if not data_id.endswith("_easy_read")
+        }
 
     jobs: dict[str, tuple[str, Path]] = {}
     destinations: dict[str, list[Path]] = {}
