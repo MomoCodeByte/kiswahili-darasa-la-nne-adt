@@ -1,6 +1,6 @@
 {
   "title": "Kiswahili: Kitabu cha Mwanafunzi Darasa la Nne",
-  "bundleVersion": "37",
+  "bundleVersion": "38",
   "languages": {
     "available": [
       "sw-TZ"
@@ -8,7 +8,7 @@
     "default": "sw-TZ"
   },
   "features": {
-    "signLanguage": false,
+    "signLanguage": true,
     "easyRead": true,
     "glossary": true,
     "eli5": false,
