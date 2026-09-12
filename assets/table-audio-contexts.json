@@ -1,0 +1,794 @@
+{
+  "pg011_n0011": {
+    "prefix": "Jedwali hili lina mistari mitano na safu tatu. Kila seli itatangaza mstari na safu yake. Jedwali la kwanza. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg011_n0013": {
+    "prefix": "Jedwali la kwanza. Mstari wa kwanza, safu ya pili."
+  },
+  "pg011_n0015": {
+    "prefix": "Jedwali la kwanza. Mstari wa kwanza, safu ya tatu."
+  },
+  "pg011_n0018": {
+    "prefix": "Jedwali la kwanza. Mstari wa pili, safu ya kwanza."
+  },
+  "pg011_n0020": {
+    "prefix": "Jedwali la kwanza. Mstari wa pili, safu ya pili."
+  },
+  "pg011_n0022": {
+    "prefix": "Jedwali la kwanza. Mstari wa pili, safu ya tatu."
+  },
+  "pg011_n0025": {
+    "prefix": "Jedwali la kwanza. Mstari wa tatu, safu ya kwanza."
+  },
+  "pg011_n0027": {
+    "prefix": "Jedwali la kwanza. Mstari wa tatu, safu ya pili."
+  },
+  "pg011_n0029": {
+    "prefix": "Jedwali la kwanza. Mstari wa tatu, safu ya tatu."
+  },
+  "pg011_n0032": {
+    "prefix": "Jedwali la kwanza. Mstari wa nne, safu ya kwanza."
+  },
+  "pg011_n0034": {
+    "prefix": "Jedwali la kwanza. Mstari wa nne, safu ya pili."
+  },
+  "pg011_n0036": {
+    "prefix": "Jedwali la kwanza. Mstari wa nne, safu ya tatu."
+  },
+  "pg011_n0039": {
+    "prefix": "Jedwali la kwanza. Mstari wa tano, safu ya kwanza."
+  },
+  "pg011_n0041": {
+    "prefix": "Jedwali la kwanza. Mstari wa tano, safu ya pili."
+  },
+  "pg011_n0050": {
+    "prefix": "Jedwali hili lina mistari kumi na tatu na safu tatu. Kila seli itatangaza mstari na safu yake. Jedwali la pili. Mstari wa kwanza, safu ya pili."
+  },
+  "pg011_n0052": {
+    "prefix": "Jedwali la pili. Mstari wa kwanza, safu ya tatu."
+  },
+  "pg011_n0055": {
+    "prefix": "Jedwali la pili. Mstari wa pili, safu ya kwanza."
+  },
+  "pg011_n0057": {
+    "prefix": "Jedwali la pili. Mstari wa pili, safu ya pili."
+  },
+  "pg011_n0059": {
+    "prefix": "Jedwali la pili. Mstari wa pili, safu ya tatu."
+  },
+  "pg011_n0063": {
+    "prefix": "Jedwali la pili. Mstari wa tatu, safu ya pili."
+  },
+  "pg011_n0065": {
+    "prefix": "Jedwali la pili. Mstari wa tatu, safu ya tatu."
+  },
+  "pg011_n0068": {
+    "prefix": "Jedwali la pili. Mstari wa nne, safu ya kwanza."
+  },
+  "pg011_n0070": {
+    "prefix": "Jedwali la pili. Mstari wa nne, safu ya pili."
+  },
+  "pg011_n0075": {
+    "prefix": "Jedwali la pili. Mstari wa tano, safu ya kwanza."
+  },
+  "pg011_n0077": {
+    "prefix": "Jedwali la pili. Mstari wa tano, safu ya pili."
+  },
+  "pg011_n0082": {
+    "prefix": "Jedwali la pili. Mstari wa sita, safu ya kwanza."
+  },
+  "pg011_n0086": {
+    "prefix": "Jedwali la pili. Mstari wa sita, safu ya tatu."
+  },
+  "pg011_n0089": {
+    "prefix": "Jedwali la pili. Mstari wa saba, safu ya kwanza."
+  },
+  "pg011_n0091": {
+    "prefix": "Jedwali la pili. Mstari wa saba, safu ya pili."
+  },
+  "pg011_n0096": {
+    "prefix": "Jedwali la pili. Mstari wa nane, safu ya kwanza."
+  },
+  "pg011_n0100": {
+    "prefix": "Jedwali la pili. Mstari wa nane, safu ya tatu."
+  },
+  "pg011_n0103": {
+    "prefix": "Jedwali la pili. Mstari wa tisa, safu ya kwanza."
+  },
+  "pg011_n0107": {
+    "prefix": "Jedwali la pili. Mstari wa tisa, safu ya tatu."
+  },
+  "pg011_n0110": {
+    "prefix": "Jedwali la pili. Mstari wa kumi, safu ya kwanza."
+  },
+  "pg011_n0112": {
+    "prefix": "Jedwali la pili. Mstari wa kumi, safu ya pili."
+  },
+  "pg011_n0117": {
+    "prefix": "Jedwali la pili. Mstari wa kumi na moja, safu ya kwanza."
+  },
+  "pg011_n0119": {
+    "prefix": "Jedwali la pili. Mstari wa kumi na moja, safu ya pili."
+  },
+  "pg011_n0124": {
+    "prefix": "Jedwali la pili. Mstari wa kumi na mbili, safu ya kwanza."
+  },
+  "pg011_n0128": {
+    "prefix": "Jedwali la pili. Mstari wa kumi na mbili, safu ya tatu."
+  },
+  "pg011_n0131": {
+    "prefix": "Jedwali la pili. Mstari wa kumi na tatu, safu ya kwanza."
+  },
+  "pg011_n0133": {
+    "prefix": "Jedwali la pili. Mstari wa kumi na tatu, safu ya pili."
+  },
+  "pg014_n0006": {
+    "prefix": "Jedwali hili lina mistari miwili na safu sita. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg014_n0008": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg014_n0010": {
+    "prefix": "Mstari wa kwanza, safu ya tatu."
+  },
+  "pg014_n0012": {
+    "prefix": "Mstari wa kwanza, safu ya nne."
+  },
+  "pg014_n0014": {
+    "prefix": "Mstari wa kwanza, safu ya tano."
+  },
+  "pg014_n0016": {
+    "prefix": "Mstari wa kwanza, safu ya sita."
+  },
+  "pg025_n0008": {
+    "prefix": "Jedwali hili lina mistari tisa na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg025_n0010": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg025_n0013": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg025_n0014": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg025_n0016": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg025_n0017": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg025_n0020": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg025_n0021": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg025_n0023": {
+    "prefix": "Mstari wa tatu, safu ya pili."
+  },
+  "pg025_n0024": {
+    "prefix": "Mstari wa tatu, safu ya pili."
+  },
+  "pg025_n0027": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg025_n0028": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg025_n0030": {
+    "prefix": "Mstari wa nne, safu ya pili."
+  },
+  "pg025_n0031": {
+    "prefix": "Mstari wa nne, safu ya pili."
+  },
+  "pg025_n0034": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg025_n0035": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg025_n0037": {
+    "prefix": "Mstari wa tano, safu ya pili."
+  },
+  "pg025_n0038": {
+    "prefix": "Mstari wa tano, safu ya pili."
+  },
+  "pg025_n0041": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg025_n0042": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg025_n0044": {
+    "prefix": "Mstari wa sita, safu ya pili."
+  },
+  "pg025_n0045": {
+    "prefix": "Mstari wa sita, safu ya pili."
+  },
+  "pg025_n0048": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg025_n0049": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg025_n0051": {
+    "prefix": "Mstari wa saba, safu ya pili."
+  },
+  "pg025_n0052": {
+    "prefix": "Mstari wa saba, safu ya pili."
+  },
+  "pg025_n0055": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg025_n0056": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg025_n0058": {
+    "prefix": "Mstari wa nane, safu ya pili."
+  },
+  "pg025_n0059": {
+    "prefix": "Mstari wa nane, safu ya pili."
+  },
+  "pg025_n0062": {
+    "prefix": "Mstari wa tisa, safu ya kwanza."
+  },
+  "pg025_n0063": {
+    "prefix": "Mstari wa tisa, safu ya kwanza."
+  },
+  "pg025_n0065": {
+    "prefix": "Mstari wa tisa, safu ya pili."
+  },
+  "pg025_n0066": {
+    "prefix": "Mstari wa tisa, safu ya pili."
+  },
+  "pg025_n0070": {
+    "prefix": "Mstari wa tisa, safu ya pili."
+  },
+  "pg025_n0071": {
+    "prefix": "Mstari wa tisa, safu ya pili."
+  },
+  "pg034_n0019": {
+    "prefix": "Jedwali hili lina mistari kumi na moja na safu mbili. Kila seli itatangaza mstari na safu yake. Jedwali la kwanza. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg034_n0021": {
+    "prefix": "Jedwali la kwanza. Mstari wa kwanza, safu ya pili."
+  },
+  "pg034_n0024": {
+    "prefix": "Jedwali la kwanza. Mstari wa pili, safu ya kwanza."
+  },
+  "pg034_n0028": {
+    "prefix": "Jedwali la kwanza. Mstari wa tatu, safu ya kwanza."
+  },
+  "pg034_n0032": {
+    "prefix": "Jedwali la kwanza. Mstari wa nne, safu ya kwanza."
+  },
+  "pg034_n0036": {
+    "prefix": "Jedwali la kwanza. Mstari wa tano, safu ya kwanza."
+  },
+  "pg034_n0040": {
+    "prefix": "Jedwali la kwanza. Mstari wa sita, safu ya kwanza."
+  },
+  "pg034_n0044": {
+    "prefix": "Jedwali la kwanza. Mstari wa saba, safu ya kwanza."
+  },
+  "pg034_n0048": {
+    "prefix": "Jedwali la kwanza. Mstari wa nane, safu ya kwanza."
+  },
+  "pg034_n0052": {
+    "prefix": "Jedwali la kwanza. Mstari wa tisa, safu ya kwanza."
+  },
+  "pg034_n0056": {
+    "prefix": "Jedwali la kwanza. Mstari wa kumi, safu ya kwanza."
+  },
+  "pg034_n0060": {
+    "prefix": "Jedwali la kwanza. Mstari wa kumi na moja, safu ya kwanza."
+  },
+  "pg034_n0074": {
+    "prefix": "Jedwali hili lina mistari nane na safu mbili. Kila seli itatangaza mstari na safu yake. Jedwali la pili. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg034_n0076": {
+    "prefix": "Jedwali la pili. Mstari wa kwanza, safu ya pili."
+  },
+  "pg034_n0079": {
+    "prefix": "Jedwali la pili. Mstari wa pili, safu ya kwanza."
+  },
+  "pg034_n0083": {
+    "prefix": "Jedwali la pili. Mstari wa tatu, safu ya kwanza."
+  },
+  "pg034_n0087": {
+    "prefix": "Jedwali la pili. Mstari wa nne, safu ya kwanza."
+  },
+  "pg034_n0091": {
+    "prefix": "Jedwali la pili. Mstari wa tano, safu ya kwanza."
+  },
+  "pg034_n0095": {
+    "prefix": "Jedwali la pili. Mstari wa sita, safu ya kwanza."
+  },
+  "pg034_n0099": {
+    "prefix": "Jedwali la pili. Mstari wa saba, safu ya kwanza."
+  },
+  "pg034_n0103": {
+    "prefix": "Jedwali la pili. Mstari wa nane, safu ya kwanza."
+  },
+  "pg041_n0051": {
+    "prefix": "Jedwali hili lina mistari kumi na mbili na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg041_n0053": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg041_n0056": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg041_n0058": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg041_n0061": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg041_n0063": {
+    "prefix": "Mstari wa tatu, safu ya pili."
+  },
+  "pg041_n0066": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg041_n0068": {
+    "prefix": "Mstari wa nne, safu ya pili."
+  },
+  "pg041_n0071": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg041_n0073": {
+    "prefix": "Mstari wa tano, safu ya pili."
+  },
+  "pg041_n0076": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg041_n0078": {
+    "prefix": "Mstari wa sita, safu ya pili."
+  },
+  "pg041_n0081": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg041_n0083": {
+    "prefix": "Mstari wa saba, safu ya pili."
+  },
+  "pg041_n0086": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg041_n0088": {
+    "prefix": "Mstari wa nane, safu ya pili."
+  },
+  "pg041_n0091": {
+    "prefix": "Mstari wa tisa, safu ya kwanza."
+  },
+  "pg041_n0093": {
+    "prefix": "Mstari wa tisa, safu ya pili."
+  },
+  "pg041_n0096": {
+    "prefix": "Mstari wa kumi, safu ya kwanza."
+  },
+  "pg041_n0098": {
+    "prefix": "Mstari wa kumi, safu ya pili."
+  },
+  "pg041_n0101": {
+    "prefix": "Mstari wa kumi na moja, safu ya kwanza."
+  },
+  "pg041_n0103": {
+    "prefix": "Mstari wa kumi na moja, safu ya pili."
+  },
+  "pg041_n0106": {
+    "prefix": "Mstari wa kumi na mbili, safu ya kwanza."
+  },
+  "pg041_n0108": {
+    "prefix": "Mstari wa kumi na mbili, safu ya pili."
+  },
+  "pg070_n0008": {
+    "prefix": "Jedwali hili lina mistari nane na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg070_n0010": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg070_n0013": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg070_n0018": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg070_n0023": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg070_n0028": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg070_n0033": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg070_n0038": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg070_n0043": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg071_n0031": {
+    "prefix": "Jedwali hili lina mistari nane na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa pili, safu ya kwanza."
+  },
+  "pg071_n0036": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg071_n0041": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg071_n0046": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg071_n0051": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg071_n0056": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg071_n0061": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg095_n0037": {
+    "prefix": "Jedwali hili lina mistari miwili na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg095_n0039": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg095_n0042": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg095_n0045": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0047": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0049": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0051": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0053": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0055": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0057": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0059": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0061": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg095_n0064": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg095_n0068": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg095_n0072": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg095_n0076": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg095_n0080": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg095_n0084": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg095_n0088": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg114_n0006": {
+    "prefix": "Jedwali hili lina mistari kumi na tano na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg114_n0007": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg114_n0011": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg114_n0013": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg114_n0016": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg114_n0018": {
+    "prefix": "Mstari wa tatu, safu ya pili."
+  },
+  "pg114_n0021": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg114_n0023": {
+    "prefix": "Mstari wa nne, safu ya pili."
+  },
+  "pg114_n0026": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg114_n0028": {
+    "prefix": "Mstari wa tano, safu ya pili."
+  },
+  "pg114_n0031": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg114_n0033": {
+    "prefix": "Mstari wa sita, safu ya pili."
+  },
+  "pg114_n0036": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg114_n0038": {
+    "prefix": "Mstari wa saba, safu ya pili."
+  },
+  "pg114_n0041": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg114_n0043": {
+    "prefix": "Mstari wa nane, safu ya pili."
+  },
+  "pg114_n0046": {
+    "prefix": "Mstari wa tisa, safu ya kwanza."
+  },
+  "pg114_n0048": {
+    "prefix": "Mstari wa tisa, safu ya pili."
+  },
+  "pg114_n0051": {
+    "prefix": "Mstari wa kumi, safu ya kwanza."
+  },
+  "pg114_n0053": {
+    "prefix": "Mstari wa kumi, safu ya pili."
+  },
+  "pg114_n0056": {
+    "prefix": "Mstari wa kumi na moja, safu ya kwanza."
+  },
+  "pg114_n0058": {
+    "prefix": "Mstari wa kumi na moja, safu ya pili."
+  },
+  "pg114_n0061": {
+    "prefix": "Mstari wa kumi na mbili, safu ya kwanza."
+  },
+  "pg114_n0063": {
+    "prefix": "Mstari wa kumi na mbili, safu ya pili."
+  },
+  "pg114_n0066": {
+    "prefix": "Mstari wa kumi na tatu, safu ya kwanza."
+  },
+  "pg114_n0068": {
+    "prefix": "Mstari wa kumi na tatu, safu ya pili."
+  },
+  "pg114_n0072": {
+    "prefix": "Mstari wa kumi na nne, safu ya pili."
+  },
+  "pg114_n0076": {
+    "prefix": "Mstari wa kumi na tano, safu ya pili."
+  },
+  "pg124_n0007": {
+    "prefix": "Jedwali hili lina mistari kumi na sita na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg124_n0009": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg124_n0012": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg124_n0014": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg124_n0017": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg124_n0019": {
+    "prefix": "Mstari wa tatu, safu ya pili."
+  },
+  "pg124_n0022": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg124_n0024": {
+    "prefix": "Mstari wa nne, safu ya pili."
+  },
+  "pg124_n0027": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg124_n0029": {
+    "prefix": "Mstari wa tano, safu ya pili."
+  },
+  "pg124_n0032": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg124_n0034": {
+    "prefix": "Mstari wa sita, safu ya pili."
+  },
+  "pg124_n0037": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg124_n0039": {
+    "prefix": "Mstari wa saba, safu ya pili."
+  },
+  "pg124_n0042": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg124_n0044": {
+    "prefix": "Mstari wa nane, safu ya pili."
+  },
+  "pg124_n0047": {
+    "prefix": "Mstari wa tisa, safu ya kwanza."
+  },
+  "pg124_n0049": {
+    "prefix": "Mstari wa tisa, safu ya pili."
+  },
+  "pg124_n0052": {
+    "prefix": "Mstari wa kumi, safu ya kwanza."
+  },
+  "pg124_n0054": {
+    "prefix": "Mstari wa kumi, safu ya pili."
+  },
+  "pg124_n0057": {
+    "prefix": "Mstari wa kumi na moja, safu ya kwanza."
+  },
+  "pg124_n0059": {
+    "prefix": "Mstari wa kumi na moja, safu ya pili."
+  },
+  "pg124_n0062": {
+    "prefix": "Mstari wa kumi na mbili, safu ya kwanza."
+  },
+  "pg124_n0064": {
+    "prefix": "Mstari wa kumi na mbili, safu ya pili."
+  },
+  "pg124_n0067": {
+    "prefix": "Mstari wa kumi na tatu, safu ya kwanza."
+  },
+  "pg124_n0069": {
+    "prefix": "Mstari wa kumi na tatu, safu ya pili."
+  },
+  "pg124_n0072": {
+    "prefix": "Mstari wa kumi na nne, safu ya kwanza."
+  },
+  "pg124_n0074": {
+    "prefix": "Mstari wa kumi na nne, safu ya pili."
+  },
+  "pg124_n0078": {
+    "prefix": "Mstari wa kumi na tano, safu ya pili."
+  },
+  "pg124_n0082": {
+    "prefix": "Mstari wa kumi na sita, safu ya pili."
+  },
+  "pg125_n0007": {
+    "prefix": "Jedwali hili lina mistari nane na safu mbili. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg125_n0009": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg125_n0012": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg125_n0013": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg125_n0018": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg125_n0021": {
+    "prefix": "Mstari wa tatu, safu ya pili."
+  },
+  "pg125_n0024": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg125_n0025": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg125_n0030": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg125_n0033": {
+    "prefix": "Mstari wa tano, safu ya pili."
+  },
+  "pg125_n0036": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg125_n0037": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg125_n0042": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg125_n0043": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg125_n0048": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg125_n0051": {
+    "prefix": "Mstari wa nane, safu ya pili."
+  },
+  "pg133_n0009": {
+    "prefix": "Jedwali hili lina mistari saba na safu tatu. Kila seli itatangaza mstari na safu yake. Mstari wa kwanza, safu ya kwanza."
+  },
+  "pg133_n0011": {
+    "prefix": "Mstari wa kwanza, safu ya pili."
+  },
+  "pg133_n0013": {
+    "prefix": "Mstari wa kwanza, safu ya tatu."
+  },
+  "pg133_n0016": {
+    "prefix": "Mstari wa pili, safu ya kwanza."
+  },
+  "pg133_n0018": {
+    "prefix": "Mstari wa pili, safu ya pili."
+  },
+  "pg133_n0020": {
+    "prefix": "Mstari wa pili, safu ya tatu."
+  },
+  "pg133_n0023": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg133_n0026": {
+    "prefix": "Mstari wa tatu, safu ya tatu."
+  },
+  "pg133_n0029": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg133_n0031": {
+    "prefix": "Mstari wa nne, safu ya pili."
+  },
+  "pg133_n0035": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg133_n0037": {
+    "prefix": "Mstari wa tano, safu ya pili."
+  },
+  "pg133_n0039": {
+    "prefix": "Mstari wa tano, safu ya tatu."
+  },
+  "pg133_n0042": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg133_n0044": {
+    "prefix": "Mstari wa sita, safu ya pili."
+  },
+  "pg133_n0048": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg133_n0051": {
+    "prefix": "Mstari wa saba, safu ya tatu."
+  },
+  "pg133_n0056": {
+    "prefix": "Jedwali hili lina mistari kumi na moja na safu tatu. Kila seli itatangaza mstari na safu yake. Mstari wa pili, safu ya kwanza."
+  },
+  "pg133_n0057": {
+    "prefix": "Mstari wa tatu, safu ya kwanza."
+  },
+  "pg133_n0058": {
+    "prefix": "Mstari wa nne, safu ya kwanza."
+  },
+  "pg133_n0059": {
+    "prefix": "Mstari wa tano, safu ya kwanza."
+  },
+  "pg133_n0060": {
+    "prefix": "Mstari wa sita, safu ya kwanza."
+  },
+  "pg133_n0061": {
+    "prefix": "Mstari wa saba, safu ya kwanza."
+  },
+  "pg133_n0062": {
+    "prefix": "Mstari wa nane, safu ya kwanza."
+  },
+  "pg133_n0063": {
+    "prefix": "Mstari wa tisa, safu ya kwanza."
+  },
+  "pg133_n0064": {
+    "prefix": "Mstari wa kumi, safu ya kwanza."
+  },
+  "pg133_n0065": {
+    "prefix": "Mstari wa kumi na moja, safu ya kwanza."
+  }
+}
