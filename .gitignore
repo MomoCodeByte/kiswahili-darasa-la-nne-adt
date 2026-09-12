@@ -2,3 +2,19 @@ tmp/
 tools/__pycache__/
 *.pyc
 
+# Local recovery archives and extracted sign-language video cache.
+repo-main.zip
+video-bundle.tar
+__video_extract2__/
+
+# Generated audio audit reports are local verification artifacts.
+*-DRY-RUN.json
+*-FINAL.json
+*-VERIFY.json
+*-REMAINING.json
+MATRIX-READING-AUDIO-SECTIONS.txt
+
+# One-off recovery download helpers.
+download_sign_videos.py
+download_tracked_assets.py
+
